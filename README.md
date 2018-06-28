@@ -1,8 +1,8 @@
 # Java EE 8 Development with Eclipse Third Edition
 
-<a href="https://www.packtpub.com/application-development/java-ee-development-eclipse-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781785285349"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/java-ee-8-development-eclipse-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788833776"><img src="Cover Image URL of the Book" alt="Java EE 8 Development with Eclipse Third Edition" height="256px" align="right"></a>
 
-This is the code repository for [Java EE 8 Development with Eclipse Third Edition](https://www.packtpub.com/application-development/java-ee-development-eclipse-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781785285349"), published by Packt.
+This is the code repository for [Java EE 8 Development with Eclipse Third Edition](https://www.packtpub.com/application-development/java-ee-8-development-eclipse-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788833776), published by Packt.
 
 **Develop, test, and troubleshoot Java Enterprise applications rapidly with Eclipse**
 
