@@ -1,22 +1,22 @@
-# Book Name
+# Java EE 8 Development with Eclipse Third Edition
 
-<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/java-ee-development-eclipse-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781785285349"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
 
-This is the code repository for [Book Name](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Java EE 8 Development with Eclipse Third Edition](https://www.packtpub.com/application-development/java-ee-development-eclipse-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781785285349"), published by Packt.
 
-**Subtitle from EPIC**
+**Develop, test, and troubleshoot Java Enterprise applications rapidly with Eclipse**
 
 ## What is this book about?
-First Paragraph from the Long Description
+Java EE is one of the most popular tools for enterprise application design and development. With recent changes to Java EE 8 specifications, Java EE application development has become a lot simpler with the new specifications, some of which compete with the existing specifications. This guide provides a complete overview of developing highly performant, robust and secure enterprise applications with Java EE with Eclipse.
 
 This book covers the following exciting features: <First 5 What you'll learn points>
-* Learn how to manage users, groups, and permissions
-* Encrypt and decrypt disks with Linux Unified Key Setup /Luks
-* Setup SSH for remote access, and connect it to other nodes
-* Understand how to add, remove, and search for packages
-* Use NFS and Samba to share directories with other users
+* Set up Eclipse, Tomcat, and Glassfish servers for Java EE application development
+* Use JSP, Servlet, JSF, and EJBs to create a user interface and write business logic
+* Create Java EE database applications using JDBC and JPA
+* Handle asynchronous messages using MDBs for better scalability
+* Deploy and debug Java EE applications and create SOAP and REST web services
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788833775) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
@@ -34,15 +34,15 @@ if (test expression)
 ```
 
 **Following is what you need for this book:**
-Copy and paste the Audience section from the EPIC.
+If you are a Java developer with little or no experience in Java EE application development, or if you have experience in Java EE technology but are looking for tips to simplify and accelerate your development process, then this book is for you.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
 
 ### Software and Hardware List
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
+| 1        | Java (JDK) 7                        | Windows/Mac OSX/Linux              |
 | 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
 | 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
 | 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
@@ -59,19 +59,16 @@ With the following software and hardware list you can run all code files present
 | 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/JavaEE8DevelopmentwithEclipseThirdEdition_ColorImages.pdf).
 
 ### Related products <Paste books from the Other books you may enjoy section>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Java EE 8 Cookbook [[Packt]](https://www.packtpub.com/application-development/java-ee-8-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788293037) [[Amazon]](https://www.amazon.com/dp/1788293037)
 
 * Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
 
 ## Get to Know the Author(s)
-**Author Name**
-Bio
-
-**Author Name**
-Bio
+**Ram Kulkarni**
+Ram Kulkarni has more than two decades of experience in developing software. He has architected and developed many enterprise web applications, client-server and desktop applications, application servers, and IDE and mobile applications. He is also the author of Eclipse 4 RCP Development How-To, published by Packt Publishing.
 
 
 ## Other books by the authors
