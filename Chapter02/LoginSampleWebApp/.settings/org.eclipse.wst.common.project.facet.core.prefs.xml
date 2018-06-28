@@ -1,0 +1,7 @@
+<root>
+  <facet id="jst.jstl">
+    <node name="libprov">
+      <attribute name="provider-id" value="jstl-no-op-library-provider"/>
+    </node>
+  </facet>
+</root>

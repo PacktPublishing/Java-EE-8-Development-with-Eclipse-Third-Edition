@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:c="http://java.sun.com/jsp/jstl/core">
+    
+    <h2>Courses:</h2>
+    <h:form>
+	    <h:messages style="color:red"/>
+		<h:dataTable value="#{courseServiceBean.courses}" var="course">
+			<h:column>
+				<f:facet name="header">ID</f:facet>
+				<h:outputText value="#{course.id}"/>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Name</f:facet>
+				<h:outputText value="#{course.name}"/>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Credits</f:facet>
+				<h:outputText value="#{course.credits}" style="float:right" />
+			</h:column>
+		</h:dataTable>
+	</h:form>
+		
+	<h:panelGroup rendered="#{courseServiceBean.courses.size() == 0}">
+		<h3>No courses found</h3>
+	</h:panelGroup>
+	
+	<c:if test="#{courseServiceBean.courses.size() > 0}">
+		<b>Total number of courses
+			<h:outputText value="#{courseServiceBean.courses.size()}"/>
+		</b>
+	</c:if>
+	<p/>
+	<h:button value="Add" outcome="addCourse"/>	
+</html>

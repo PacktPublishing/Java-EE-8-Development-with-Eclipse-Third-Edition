@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
+    
+	<h2>Add Course:</h2>
+	<h:form>	
+		<h:outputLabel value="Name:" for="name"/> 
+			<h:inputText value="#{course.name}" id="name"/> <br/>
+		<h:outputLabel value="Credits:" for="credits"/>
+			<h:inputText value="#{course.credits}" id="credits"/>
+		<br/>
+		<h:commandButton value="Add" action="#{courseServiceBean.addCourse}"/>
+	</h:form>
+    
+</html>
