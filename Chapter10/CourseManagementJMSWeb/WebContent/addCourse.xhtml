@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:f="http://java.sun.com/jsf/core"
+ xmlns:h="http://java.sun.com/jsf/html">
+
+<head>
+	<title>Add Course</title>
+</head> 
+ 
+ <body>
+	<h2>Course Details</h2>
+	
+	<h:form>
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td>
+					<h:inputText id="course_name" value="#{course.name}"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Credits:</td>
+				<td>
+					<h:inputText id="course_credits" value="#{course.credits}"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+  					<h:commandButton value="Submit" action="#{course.addCourse}"/>				
+				</td>
+			</tr>
+		</table>
+	</h:form>
+  
+</body> 
+ 
+</html>
