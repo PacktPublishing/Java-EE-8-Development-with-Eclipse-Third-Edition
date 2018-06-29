@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:f="http://java.sun.com/jsf/core"
+ xmlns:h="http://java.sun.com/jsf/html">
+
+<head>
+  <title>Courses</title>
+</head>
+<body>
+	<h2>Courses</h2>
+	<h:dataTable value="#{Course.courses}" var="course">
+	  	<h:column>    				
+			<f:facet name="header">Name</f:facet>
+			#{course.name}
+		</h:column>
+	  	<h:column>    				
+			<f:facet name="header">Credits</f:facet>
+			#{course.credits}
+		</h:column>
+	</h:dataTable>
+</body>
+</html>
