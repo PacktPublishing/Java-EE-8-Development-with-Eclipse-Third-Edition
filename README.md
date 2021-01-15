@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Java EE 8 Development with Eclipse Third Edition
 
 <a href="https://www.packtpub.com/application-development/java-ee-8-development-eclipse-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788833776"><img src="Cover Image URL of the Book" alt="Java EE 8 Development with Eclipse Third Edition" height="256px" align="right"></a>
